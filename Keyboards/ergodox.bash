@@ -15,7 +15,7 @@
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-L"
+BuildPath="matt-l"
 
 ## KLL Configuration ##
 
@@ -25,7 +25,7 @@ BaseMap="scancode_map leftHand slave1 rightHand"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="mdergo1Overlay lcdFuncMap"
+DefaultMap="_default lcdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -33,8 +33,9 @@ DefaultMap="mdergo1Overlay lcdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="iced_func"
-PartialMaps[2]="iced_numpad"
+PartialMaps[1]="_qwerty"
+PartialMaps[2]="_nav"
+PartialMaps[3]="_num"
 
 
 
@@ -85,7 +86,7 @@ source cmake.bash
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="ICED-R"
+BuildPath="matt-r"
 
 ## KLL Configuration ##
 
@@ -95,5 +96,3 @@ BaseMap="defaultMap rightHand slave1 leftHand"
 
 # Load the library (starts the build)
 source cmake.bash
-
-
