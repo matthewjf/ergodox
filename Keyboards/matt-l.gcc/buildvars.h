@@ -34,15 +34,15 @@
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "81cd1ca0b9fbb2536315ef5f77cf0b6c4792d13e"
+#define CLI_Revision            "367735c530546302aa61bb894167f029276b3db8"
 #define CLI_Branch              "master"
 #define CLI_ModifiedStatus      "Dirty"
-#define CLI_ModifiedFiles       "\r\n\tKeyboards/ergodox.bash"
+#define CLI_ModifiedFiles       "\r\n\tKeyboards/infinity.bash\r\n\tKeyboards/infinity_led.bash\r\n\tKeyboards/matt-l.gcc/Makefile\r\n\tKeyboards/matt-l.gcc/buildvars.h\r\n\tKeyboards/matt-l.gcc/generatedKeymap.h\r\n\tKeyboards/matt-l.gcc/kll_defs.h\r\n\tKeyboards/matt-r.gcc/Makefile\r\n\tKeyboards/matt-r.gcc/buildvars.h\r\n\tKeyboards/matt-r.gcc/generatedKeymap.h\r\n\tKeyboards/matt-r.gcc/kll_defs.h\r\n\tKeyboards/whitefox.bash"
 #define CLI_RepoOrigin          "https://github.com/kiibohd/controller.git"
-#define CLI_CommitDate          "2017-02-23 11:51:57 -0800"
-#define CLI_CommitAuthor        "GitHub <noreply@github.com>"
+#define CLI_CommitDate          "2017-07-31 11:55:58 -0700"
+#define CLI_CommitAuthor        "matthew <matthewjf@gmail.com>"
 #define CLI_Modules             "Scan(Infinity_Ergodox) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2017-02-25 15:08:07 -0800"
+#define CLI_BuildDate           "2017-10-25 23:29:15 -0700"
 #define CLI_BuildOS             "Generic"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"
@@ -56,5 +56,5 @@
 // match the INF file.
 #define VENDOR_ID               0x1C11
 #define PRODUCT_ID              0xB04D
-#define BCD_VERSION             513
+#define BCD_VERSION             514
 
